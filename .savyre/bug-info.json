@@ -1,5 +1,5 @@
 {
-  "description": "CI fails because lint runs before dependencies are installed. The workflow should install dependencies first, then run lint and build.",
-  "expectedOutcome": "GitHub Actions CI completes successfully on push and pull request to main/master.",
+  "description": "CI is failing for this repository (e.g. on pull requests). Open the GitHub Actions logs for the failing job, determine why the workflow fails, and fix the pipeline so the job can complete successfully. Prefer fixing the workflow configuration; only change application source if the failure clearly requires it.",
+  "expectedOutcome": "The default CI workflow completes successfully on PRs targeting main or master (and on pushes that trigger the same workflow).",
   "bugFilePath": ".github/workflows/ci.yml"
 }
