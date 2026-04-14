@@ -1,5 +1,5 @@
 {
-  "description": "CI is failing for this repository (e.g. on pull requests). Open the GitHub Actions logs for the failing job, determine why the workflow fails, and fix the pipeline so the job can complete successfully. Prefer fixing the workflow configuration; only change application source if the failure clearly requires it.",
-  "expectedOutcome": "The default CI workflow completes successfully on PRs targeting main or master (and on pushes that trigger the same workflow).",
+  "description": "The CI pipeline configuration in this repository is currently broken, so the validation flow fails. Investigate the repository workflow/pipeline files, identify the misconfiguration, and fix it so the CI flow can complete successfully. Prefer configuration/workflow fixes over application code changes unless absolutely necessary.",
+  "expectedOutcome": "After your fix, the repository CI workflow configuration is valid and the pipeline can run successfully with dependencies installed before checks and build steps.",
   "bugFilePath": ".github/workflows/ci.yml"
 }
