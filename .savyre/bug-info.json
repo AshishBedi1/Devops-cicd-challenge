@@ -1,0 +1,5 @@
+{
+  "description": "CI fails because lint runs before dependencies are installed. The workflow should install dependencies first, then run lint and build.",
+  "expectedOutcome": "GitHub Actions CI completes successfully on push and pull request to main/master.",
+  "bugFilePath": ".github/workflows/ci.yml"
+}
